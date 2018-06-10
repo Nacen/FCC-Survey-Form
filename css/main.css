@@ -1,21 +1,96 @@
-#title {}
+body {
+  background-color: #74c5c5;
+  font-family: 'Lora', serif;
+}
 
-#description {}
+ul {
+  list-style: none;
+}
 
-#survey-form {}
+#title {
+  text-align: center;
+}
 
-#name {}
+#container {
+  background: white;
+  margin: 0 auto;
+  width: 75%;
+  max-width: 800px;
+  border-radius: 5px;
+  padding: 1em;
+}
 
-#email {}
+#form-container {
+  margin: 0 10%;
+}
 
-#number {}
+#description {
+  display: block;
+  text-align: center;
+}
 
-#name-label {}
+#name-label::before, #email-label::before, #rating-label::before {
+  content: "*";
+  padding: 5px;
+}
 
-#email-label {}
+.label {
+  width: 42%;
+  text-align: right;
+  padding: 5px;
+  display: inline-block;
+  margin-top: 7px;
+  vertical-align: top;
+  margin-right: 10px;
+}
 
-#number-label {}
+.right-column {
+  display: inline-block;
+  width: 48%;
+  text-align: left;
+  margin: 10px 0 10px 0;
+}
 
-#dropdown {}
+.input {
+  width: 280px;
+  padding: 5px;
+  height: 20px;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
 
-#submit {}
+#dropdown {
+  margin-top: 10px;
+}
+
+.rating {
+  float: left;
+}
+
+.textarea {
+  width: 280px;
+  height: 50px;
+}
+#submit {
+  background-color: aquamarine;
+  border: 0px solid;
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+  height: 48px;
+  margin: 10px;
+  width: 96px;
+}
+
+.button {
+  text-align: center;
+}
+
+.checkboxes {
+  position: relative;
+  top: -15px;
+  left: -50px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
